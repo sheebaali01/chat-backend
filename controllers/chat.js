@@ -1,4 +1,5 @@
 import { TryCatch } from "../middlewares/error";
+import { Chat } from "../models/chat.js";
 import { ErrorHandler } from "../utils/utility";
 
 const newGroupChat = TryCatch(async(req, res) =>{
